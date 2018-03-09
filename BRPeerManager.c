@@ -50,7 +50,10 @@
 #if BITCOIN_TESTNET
 
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
-    { 0, "aced1ab79e8ebead41da188d519d7187f63be62c72276907af4dc7529e027445", 1515429772, 0x1e0ffff0 }
+    { 0, "aced1ab79e8ebead41da188d519d7187f63be62c72276907af4dc7529e027445", 1520350783, 0x1e0ffff0 }  //1515429772
+                                                                           //Mar  6, 2018 17:39:43.000000000 EET
+                                                                           //3f b6 9e 5a
+                                                                           //1520350783
 };
 
 static const char *dns_seeds[] = {
@@ -64,7 +67,7 @@ static const char *dns_seeds[] = {
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
-    { 0, "928edf527dd235e0517ae436b93f0914c38d7f26ece12785b311efa10612de39", 1515429772, 0x1e0ffff0 }
+    { 0, "928edf527dd235e0517ae436b93f0914c38d7f26ece12785b311efa10612de39", 1515429772, 0x1e0ffff0 } //The time
 };
 
 static const char *dns_seeds[] = {
