@@ -55,9 +55,11 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "testnet-seed.ltc.xurious.com.",
-    "seed-b.litecoin.loshan.co.uk.",
-    "dnsseed-testnet.thrasher.io."
+    "mcoin.dhq.onem.",
+    "mcoin2.dhq.onem."
+    //"testnet-seed.ltc.xurious.com.",
+    //"seed-b.litecoin.loshan.co.uk.",
+    //"dnsseed-testnet.thrasher.io."
 };
 
 #else // main net
@@ -70,11 +72,8 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "dnsseed.litecointools.com.",
-    "dnsseed.litecoinpool.org.",
-    "seed-a.litecoin.loshan.co.uk.",
-    "dnsseed.thrasher.io.",
-    "dnsseed.koin-project.com."
+    "dnsseed.mcoin.global.",
+    "dnsseed2.mcoin.global."
 };
 
 #endif
